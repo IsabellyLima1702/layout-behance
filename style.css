@@ -17,28 +17,24 @@ body{
    flex-direction: column;
    padding-inline: 90px;
    background-image: url(./img/imagem2.png);
+   background-repeat: no-repeat;
+   background-size: cover;
    
 }
 header{
    height: 200px;
    display: flex;
+   flex: start;
    justify-content: space-between;
    align-items: center;
 }
 .logo{
-   height: 4000px;
+   height: 3000px;
    width: 1230px;
    background-image: url(./img/dc-log.png);
 }
-.box {
-   display: flex;
-   align-items: stretch;
- }
-.menu ul{
-   display: flex;
-   gap: 32px;
-   font-size: 32px;
-}
+
+
 main{
    flex-grow: 1;
    display: flex;
@@ -49,11 +45,13 @@ main{
    flex-direction: column;
    justify-content: space-between;
 }
-.conteudo h1{
-   font-size: 96px;
+.conteudo h3{
+   font-size: 20px;
+   color: white;
 }
 .conteudo h2{
-   font-size: 23px;
+   font-size: 28px;
+   color: white;
 }
 /*.ação button{
    height: 80px;
@@ -106,4 +104,9 @@ footer{
    justify-content: center;
    align-items: center;
 }
+.entrada{
+   display: flex;
+   gap: 35vw;
+   color: white;
 
+}
