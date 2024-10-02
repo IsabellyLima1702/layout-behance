@@ -1,0 +1,109 @@
+    /* reset */
+*{
+   padding: 0;
+   margin: 5px;
+   box-sizing: border-box;
+}
+a{
+   text-decoration: none;
+   color: inherit;
+}
+ul, ol,li{
+   list-style: none;
+}
+body{
+   height: 100vh;
+   display: flex;
+   flex-direction: column;
+   padding-inline: 90px;
+   background-image: url(./img/imagem2.png);
+   
+}
+header{
+   height: 200px;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+.logo{
+   height: 4000px;
+   width: 1230px;
+   background-image: url(./img/dc-log.png);
+}
+.box {
+   display: flex;
+   align-items: stretch;
+ }
+.menu ul{
+   display: flex;
+   gap: 32px;
+   font-size: 32px;
+}
+main{
+   flex-grow: 1;
+   display: flex;
+}
+.conteudo{
+   width: 50%;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+}
+.conteudo h1{
+   font-size: 96px;
+}
+.conteudo h2{
+   font-size: 23px;
+}
+/*.ação button{
+   height: 80px;
+   width: 300px;
+   background-color: black;
+   color: white;
+   font-size: 32px;
+}*/
+.social {
+   width: 80%;
+   display: flex;
+   justify-content: space-between;
+}
+.social div{
+   height: 96px;
+   width: 96px;
+   background-color: lightgray;
+   border-radius: 50%;
+   
+}
+.destaque{
+   width: 60%;
+   background-image: url(./img/batman.png);
+   background-repeat: no-repeat;
+}
+.destaque img{
+   height: 1000%;
+   width: 900%;
+}
+.social div{
+   height: 13px;
+   width: 13px;
+   border-radius: 50%;
+   background-repeat: no-repeat ;
+   background-position: center;
+   background-size: cover;
+}
+.insta{
+   background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQdO2uNhGkFWp6_GdO_Sas7BH-LZCJ_ckduSA&s);
+}
+.whatsApp{
+   background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQdO2uNhGkFWp6_GdO_Sas7BH-LZCJ_ckduSA&s);
+}
+.face{
+   background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQdO2uNhGkFWp6_GdO_Sas7BH-LZCJ_ckduSA&s);
+}
+footer{
+   height: 100px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
