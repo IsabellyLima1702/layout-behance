@@ -1,5 +1,5 @@
-    /* reset */
-*{
+ /* reset */
+ *{
    padding: 0;
    margin: 5px;
    box-sizing: border-box;
@@ -11,30 +11,41 @@ a{
 ul, ol,li{
    list-style: none;
 }
-body{
-   height: 100vh;
-   display: flex;
-   flex-direction: column;
-   padding-inline: 90px;
-   background-image: url(./img/imagem2.png);
-   background-repeat: no-repeat;
+body{ 
+   height: 100vh; 
+   display: flex; 
+   flex-direction: column; 
+   padding-inline: 90px; 
+   background-image: url(./img/imagem2.png); 
+   background-repeat: no-repeat; 
    background-size: cover;
-   
-}
+
+} 
+
 header{
    height: 200px;
    display: flex;
-   flex: start;
-   justify-content: space-between;
    align-items: center;
 }
-.logo{
-   height: 3000px;
-   width: 1230px;
-   background-image: url(./img/dc-log.png);
+.logo{ 
+   height: 55px;  
+   width: 60px;  
+   background-image: url(./img/simbolo\ dc.png); 
+} 
+
+.menu{
+   display: flex;
+   gap: 32px;
+   
 }
+.menu ul{
+   display: flex;
+   gap: 32px;
+   font-size: 32px;
+   color: white;
+   margin-bottom: 0%;
 
-
+}
 main{
    flex-grow: 1;
    display: flex;
@@ -43,70 +54,41 @@ main{
    width: 50%;
    display: flex;
    flex-direction: column;
-   justify-content: space-between;
-}
-.conteudo h3{
-   font-size: 20px;
-   color: white;
+
 }
 .conteudo h2{
-   font-size: 28px;
+   font-size: 38px; 
    color: white;
+   margin-bottom: 10%;
+   font-style: light;
 }
-/*.ação button{
-   height: 80px;
-   width: 300px;
-   background-color: black;
-   color: white;
-   font-size: 32px;
-}*/
+.conteudo h3{ 
+   font-size: 30px;  
+   color: white; 
+   font-style: light; 
+} 
+
 .social {
    width: 80%;
    display: flex;
    justify-content: space-between;
 }
-.social div{
-   height: 96px;
-   width: 96px;
-   background-color: lightgray;
-   border-radius: 50%;
+
+
+.destaque{ 
+   width: 100vh; 
+   right: 80px;
+   background-image: url(./img/batman.png); 
+   background-repeat: no-repeat;   
+   align-items:  center;
+   margin-left: 350px;
    
-}
-.destaque{
-   width: 60%;
-   background-image: url(./img/batman.png);
-   background-repeat: no-repeat;
-}
-.destaque img{
-   height: 1000%;
-   width: 900%;
-}
-.social div{
-   height: 13px;
-   width: 13px;
-   border-radius: 50%;
-   background-repeat: no-repeat ;
-   background-position: center;
-   background-size: cover;
-}
-.insta{
-   background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQdO2uNhGkFWp6_GdO_Sas7BH-LZCJ_ckduSA&s);
-}
-.whatsApp{
-   background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQdO2uNhGkFWp6_GdO_Sas7BH-LZCJ_ckduSA&s);
-}
-.face{
-   background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQdO2uNhGkFWp6_GdO_Sas7BH-LZCJ_ckduSA&s);
-}
+}  
+
 footer{
    height: 100px;
    display: flex;
    justify-content: center;
    align-items: center;
 }
-.entrada{
-   display: flex;
-   gap: 35vw;
-   color: white;
 
-}
