@@ -1,94 +1,178 @@
- /* reset */
- *{
-   padding: 0;
-   margin: 5px;
-   box-sizing: border-box;
-}
-a{
-   text-decoration: none;
-   color: inherit;
-}
-ul, ol,li{
-   list-style: none;
-}
-body{ 
-   height: 100vh; 
-   display: flex; 
-   flex-direction: column; 
-   padding-inline: 90px; 
-   background-image: url(./img/imagem2.png); 
-   background-repeat: no-repeat; 
-   background-size: cover;
+/* reset */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+ }
+ a{
+    text-decoration: none;
+    color: inherit;
+ }
+ ul, ol,li{
+    list-style: none;
+ }
+
+ body{ 
+    height: 70vh; 
+    padding-inline: 3.8vh;
+    background-size: 57% 150%;
+    background-position-x: 100%;
+    background-position-y: 0%;
+    background-repeat: no-repeat; 
+    background-size: cover;
+    margin-left: -4vh;
+ 
 
 } 
+.cidade{
+   height: 10%;
+   width: 100%;
 
+}
+.corpo{
+   height: 100%;
+   width: 100%;
+ 
+}
 header{
-   height: 200px;
+   height: 10%;
+   width: 100%;
    display: flex;
    align-items: center;
+   margin-bottom: 9%;
+ 
 }
 .logo{ 
-   height: 55px;  
-   width: 60px;  
-   background-image: url(./img/simbolo\ dc.png); 
+   height: 19vh;  
+   width: 6vh;
+   margin-left: 3vh;
+     
 } 
-
+ 
 .menu{
    display: flex;
-   gap: 32px;
-   
+   right: 100vh;
+   height: 18vh;
 }
 .menu ul{
    display: flex;
-   gap: 32px;
+   gap: 5vw;
    font-size: 32px;
    color: white;
-   margin-bottom: 0%;
+   margin-left: 5vh;
 
 }
-main{
-   flex-grow: 1;
-   display: flex;
-}
-.conteudo{
+ .main{
+    height: 80%;
+    width: 100%;
+    /*flex-grow: 1;*/
+    display: flex;
+    background-color: aquamarine;
+   }
+ .conteudo{
+    display: flex;
+    margin-top: -11vh;
+    margin-left: 3vw;
+    /*flex-direction: column;*/
+    display: inline-block;
+   }
+ .conteudo h2{
+   width: 100vh;
+    font-size: 3vh; 
+    color: white;
+    font-style: light; 
+   }
+ .conteudo h3{ 
+   width: 80vh;
+    font-size: 2vh;  
+    color: white; 
+    font-style: light;
+   } 
+ 
+.conteudo img{
    width: 50%;
-   display: flex;
-   flex-direction: column;
-
-}
-.conteudo h2{
-   font-size: 38px; 
-   color: white;
-   margin-bottom: 10%;
-   font-style: light;
-}
-.conteudo h3{ 
-   font-size: 30px;  
-   color: white; 
-   font-style: light; 
-} 
-
-.social {
-   width: 80%;
-   display: flex;
-   justify-content: space-between;
-}
-
-
-.destaque{ 
-   width: 100vh; 
-   right: 80px;
-   background-image: url(./img/batman.png); 
-   background-repeat: no-repeat;   
-   align-items:  center;
-   margin-left: 350px;
+    display: flex;
+    margin-top: 1vh;
+    margin-left: -2vw;
    
-}  
-
-footer{
-   height: 100px;
-   display: flex;
-   justify-content: center;
-   align-items: center;
 }
+ .social {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+   }
+ 
+ 
+ .destaque img{ 
+    width: 47.3vh;
+    height: 75.5vh;
+    background-repeat: no-repeat;   
+    align-items:  center; 
+    display:flex;
+    position: relative;
+    right: -86vh;
+    top: -40vh;
+    position: relative;
+   }  
+ 
+ footer{
+    height: 32.5vh;
+    width: 133.2vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(80, 79, 79);  
+    opacity: 90%;
+    margin-top: -59.3vh;
+   }
 
+ .seta{
+    height: 7vh;
+    width: 3vh;
+    display: flex;
+    position: relative;
+    top: 40%;
+    right: 89%;
+   }
+ .seta2{
+    height: 7vh;
+    width: 3vh;
+    display: flex;
+    position: relative;
+    top: 40%;
+    right: -241.5%;
+   }
+ 
+   .box{
+     width: 30vh;
+     height: 40vh;
+     display:flex;
+     gap: 7vh;
+     position: relative;
+     right: 18.5%;
+
+   }
+ .filmes{
+    width: 10vh;
+    height: 25vh;
+    display:flex;
+    gap: 3vh;
+    position: relative;
+    right: 26vh;
+    top: 28%;
+   }
+
+ .dc p{
+    right: 100vh;
+    font-size: 3vh;  
+    color: white; 
+    font-style: light;
+    display: flex;
+    flex-direction: row;
+    top: -132%;
+    margin-bottom: 45vh;
+    margin-left: -42vh;
+    margin-top: 15vh;;
+   }
+ 
+ 
