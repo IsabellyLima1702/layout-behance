@@ -3,7 +3,7 @@
 # Layout do Batman
 ---
 # Layout
-![](./screenshot/Captura%20de%20Tela%202024-11-06%20%C3%A0s%2016.00.52.png)
+![](./screenshot/Captura%20de%20Tela%202024-11-13%20%C3%A0s%2014.09.11.png)
 
 ---
 
