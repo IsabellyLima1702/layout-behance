@@ -105,42 +105,42 @@ header{
  
  .destaque img{ 
     width: 47.3vh;
-    height: 75.5vh;
+    height: 73.5vh;
     background-repeat: no-repeat;   
     align-items:  center; 
     display:flex;
     position: relative;
-    right: -86vh;
-    top: -40vh;
+    right: -59vh;
+    top: -43.2vh;
     position: relative;
    }  
  
  footer{
-    height: 32.5vh;
-    width: 133.2vh;
+    height: 30.5vh;
+    width: 106.5vh;
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: rgb(80, 79, 79);  
     opacity: 90%;
-    margin-top: -59.3vh;
+    margin-top: -71.6vh;
    }
 
  .seta{
-    height: 7vh;
+    height: 5vh;
     width: 3vh;
     display: flex;
     position: relative;
-    top: 40%;
-    right: 89%;
+    top: 45%;
+    right: 61%;
    }
  .seta2{
-    height: 7vh;
+    height: 5vh;
     width: 3vh;
     display: flex;
     position: relative;
-    top: 40%;
-    right: -241.5%;
+    top: 45%;
+    right: -193%;
    }
  
    .box{
@@ -153,12 +153,12 @@ header{
 
    }
  .filmes{
-    width: 10vh;
-    height: 25vh;
+    width: 8vh;
+    height: 23vh;
     display:flex;
-    gap: 3vh;
+    gap: 1vh;
     position: relative;
-    right: 26vh;
+    right: 23vh;
     top: 28%;
    }
 
@@ -171,11 +171,8 @@ header{
     flex-direction: row;
     top: -135%;
     margin-bottom: 45vh;
-    margin-left: -42vh;
-    margin-top: 15vh;;
+    margin-left: -36vh;
+    margin-top: 18vh;;
    }
 
-
-
- 
- 
+   
